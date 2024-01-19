@@ -1,0 +1,31 @@
+Project creation
+--> npx create-react-app ./
+
+--> Delete default src and create from scratch
+
+--> Dependencies required 
+    @ant-design/icons axios react-chat-engine
+
+--> Whole application comprised in App.js and import necessary App.css and react-chat-engine over there 
+
+--> Chatengine.io 
+	-> Create project -> Add users (Constant pwd: Welcome@123)
+	-> New Chat -> add admin -> (provide usersecret and username)
+
+--> return Chatengine inside App.js with above stuffs from Chatengine.io
+
+--> render chatfeed in App.js and change the interface of chatapp
+
+--> In chatfeed - import Messageform, MyMessage, TheirMessage 
+	-> check whether keys are active and render its index and store it as key
+	->check whether this is the last message if so note the index
+	->check if is my message or others messages 
+
+--> In my message, if the message is image, assign its length. else render the text
+
+--> After creating login form, type the project id alone and so it will render
+
+--> Then in terminal -> clear -> npm run build
+
+--> Drag and drop the build folder in netlify and host it
+
